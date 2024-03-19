@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Japans</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="style.css"
+        type="text/css"
+        rel="stylesheet" />
+</head>
+
+<body>
+  <div id="time">__:__</div>
+
+  <div id="result">
+    &nbsp;
+  </div>
+
+  <div class="numpad">
+    <button class="numpad-button"
+            onclick="enter(1)">1</button>
+    <button class="numpad-button"
+            onclick="enter(2)">2</button>
+    <button class="numpad-button"
+            onclick="enter(3)">3</button><br />
+    <button class="numpad-button"
+            onclick="enter(4)">4</button>
+    <button class="numpad-button"
+            onclick="enter(5)">5</button>
+    <button class="numpad-button"
+            onclick="enter(6)">6</button><br />
+    <button class="numpad-button"
+            onclick="enter(7)">7</button>
+    <button class="numpad-button"
+            onclick="enter(8)">8</button>
+    <button class="numpad-button"
+            onclick="enter(9)">9</button><br />
+    <button class="numpad-button btn-backspace"
+            onclick="backspace()">&larr;</button>
+    <button class="numpad-button"
+            onclick="enter(0)">0</button>
+    <button class="numpad-button btn-hint"
+            onclick="peek()">?</button>
+  </div>
+
+  <div class="controls">
+    <button onclick="replay()"
+            class="btn-replay">&#x21BB;</button>
+    <button onclick="check()"
+            class="btn-check">&#x2714;</button>
+    <button onclick="start()"
+            class="btn-start">Start</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

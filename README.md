@@ -1,2 +1,2 @@
-# japanese-times
-Simple web app to practice recognising time as spoken in Japanese.
+# Japanese Times
+Simple web app to practice recognizing time as spoken in Japanese.
